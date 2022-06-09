@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2_KolekcjeGenery
+namespace _2_KolekcjeGeneryczne
 {
     class Program
     {
