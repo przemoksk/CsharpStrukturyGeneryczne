@@ -22,8 +22,8 @@ namespace _2_KolekcjeGeneryczne
             foreach (var p in pracownik)
             {
                 Console.WriteLine(p.Imie + p.Nazwisko);
-                
-               
+
+
             }
 
             for (int i = 0; i < pracownik.Length; i++)
@@ -32,6 +32,22 @@ namespace _2_KolekcjeGeneryczne
             }
 
             Console.ReadLine();
+
+            List<Pracownik> pracowniks = new List<Pracownik>
+            {
+
+                new Pracownik {Imie = "Adam"},
+                new Pracownik {Imie = "Marek", Nazwisko = "Nowak"},
+                new Pracownik { Imie = "Hanna", Nazwisko = "Smrek" }
+            };
+
+            pracowniks.Add(new Pracownik {Imie= "Henryk", Nazwisko = "Ida" });
+
+            foreach (var item in pracowniks)
+            {
+                Console.WriteLine("To jest lista" +  item.Imie + item.Nazwisko);
+            }
+            Console.ReadKey();
         }
     }
 }

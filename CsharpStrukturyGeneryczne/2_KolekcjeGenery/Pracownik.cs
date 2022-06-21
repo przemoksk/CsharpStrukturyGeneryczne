@@ -4,5 +4,13 @@
     {
         public string Imie { get; set; }
         public string Nazwisko { get; set; }
+
+        public void DodajPracownika()
+        {
+
+            string Dane;
+            Dane = Imie + Nazwisko;
+
+        }
     }
 }

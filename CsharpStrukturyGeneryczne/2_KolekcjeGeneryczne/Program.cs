@@ -10,8 +10,7 @@ namespace _1_TypyGeneryczne
     {
         static void Main(string[] args)
         {
-          ///  KolejkaKolowa kolejka = new KolejkaKolowa();
-            ///kolejka.Zapisz();
+
         }
     }
 }
