@@ -12,6 +12,7 @@ namespace _2_KolekcjeGeneryczne
         {
             Pracownik[] pracownik;
 
+
             pracownik = new Pracownik[]
             {
                 new Pracownik {Imie = "Kata"},
@@ -33,7 +34,7 @@ namespace _2_KolekcjeGeneryczne
 
             Console.ReadLine();
 
-            List<Pracownik> pracowniks = new List<Pracownik>
+            List<Pracownik> pracowniks = new List<Pracownik>()
             {
 
                 new Pracownik {Imie = "Adam"},
@@ -48,6 +49,9 @@ namespace _2_KolekcjeGeneryczne
                 Console.WriteLine("To jest lista" +  item.Imie + item.Nazwisko);
             }
             Console.ReadKey();
+
+
+            
         }
     }
 }

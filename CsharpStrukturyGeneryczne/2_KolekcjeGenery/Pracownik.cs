@@ -11,6 +11,8 @@
             string Dane;
             Dane = Imie + Nazwisko;
 
+
+
         }
     }
 }
