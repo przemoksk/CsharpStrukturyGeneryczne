@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_KolekcjeGenTest", "Csharp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "CsharpStrukturyGeneryczne\ConsoleApp1\ConsoleApp1.csproj", "{57BCE74C-CD24-4020-98C2-BEC743276B8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KolejkaTest", "KolejkaTest\KolejkaTest.csproj", "{06C74843-F6AA-4A17-B361-3EBF69231EB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{57BCE74C-CD24-4020-98C2-BEC743276B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57BCE74C-CD24-4020-98C2-BEC743276B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57BCE74C-CD24-4020-98C2-BEC743276B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C74843-F6AA-4A17-B361-3EBF69231EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C74843-F6AA-4A17-B361-3EBF69231EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C74843-F6AA-4A17-B361-3EBF69231EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C74843-F6AA-4A17-B361-3EBF69231EB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
