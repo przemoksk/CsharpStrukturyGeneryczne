@@ -100,6 +100,18 @@ namespace CsharpStrukturyGeneryczne
             }
 
 
+            var mapa = new Dictionary<int, string>();
+
+            mapa.Add(1, "jeden");
+            mapa.Add(2, "dwa");
+            mapa.Add(3, "trzy");
+
+            /// assert
+            /// 
+
+            Console.WriteLine("słownik: " + mapa[1]);
+
+            mapa.Count();
             Console.ReadLine();
 
 
